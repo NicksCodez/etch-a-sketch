@@ -1,10 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#header {
+    align-self: center;
+    color: red;
+    font-weight: 1100;
+    font-size : 42px;
+}
+
 #container {
+    align-self: center;
+    background-color: white;
     border-style: solid;
     border-width: 2px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.square {
-
+.numberSquares {
+    align-self: center;
+    background-color: lightskyblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(234, 235, 223);
+    font-weight: bold;
+    font-size: 20px;
 }
